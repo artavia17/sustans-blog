@@ -1,0 +1,13 @@
+/*
+    Theme Name: Sustans Blog
+    Author: Alonso Artavia
+    Author URI: https://alonsocr.com
+    Version: 1.0
+    Description: The theme was created with love for Sustans
+    Version: 0.1
+    Requires PHP 8.0
+    Licenses: GNU General Public License V2 or later
+    Text Domain: blog.sustans.org
+*/
+
+@import url(./dist/css/global.css);

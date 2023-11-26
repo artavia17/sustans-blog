@@ -1,0 +1,21 @@
+{
+  "name": "sustans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "node-sass src/scss/ -o dist/css/ --recursive --watch",
+    "start": "concurrently \"npm run sass:watch\" \"tsc --watch\""
+  },
+  "author": "Alonso Artavia",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}
